@@ -1,0 +1,180 @@
+body{
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+header{
+	background: #333333;
+	
+	.row{
+		padding-top:10px;	
+		padding-bottom:10px;
+		}
+	img{
+		height:80px; 
+	}
+}
+
+nav{
+	ul{    
+		padding-left: 160px;
+		
+			li{       
+			display: inline-block;
+			padding-right: 25px;
+			
+				a{
+				text-decoration: none;
+				color:white;
+				font-size: 13px; 
+				}
+			}
+		}
+}
+
+h1 , nav {
+	vertical-align: middle;
+	display: inline-block;
+	
+}
+
+.section_episodes{
+	background:#eeeeee;
+	
+	.container{
+		border-bottom:1px solid #bbbbbb;
+		padding-bottom:15px;
+	}
+	
+	.col-12{
+		padding:19px 0px 19px 0px;
+	}
+	
+	p{
+		color:#333333;
+		font-size:18px;
+		font-weight:bold;
+	}
+	
+	a{
+		color:#456784;
+		font-size:12px;
+		text-decoration:none;
+	}
+	
+	.col-3{
+		text-align:center;
+		
+		a{
+		font-weight:bold;
+		text-decoration:none;
+		color:#456784;
+		font-size:15px;
+		
+		img{
+			border: solid 3px #fff;
+			-webkit-box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+			-moz-box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+			box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+			width:100%;
+		}
+		
+		
+		}
+	}
+}
+
+
+
+
+
+
+.section_apps{
+	
+	.container{
+		padding:0px;
+		margin-top:30px;
+		margin-bottom:20px;
+	}
+	
+	.col-8{
+		.col-13{
+		text-align:center;
+		font-size:11px;
+		height:140px;
+		}
+		a{
+		font-weight:bold;
+		text-decoration:none;
+		color:#456784;
+		font-size:12px;
+		}
+	
+		img{
+		border: solid 3px #fff;
+		-webkit-box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+		box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+		width:100%;
+		}
+	}	
+		
+	.col-4{
+		
+		.col-12{
+			padding-top:20px;
+			padding-left:70px;
+			padding-bottom:5px;
+			
+			h3{
+			color:#615F5F;
+			font-size:14px;
+			border-bottom:1px solid #ccc;
+			}
+			
+			.row{
+			margin-bottom:5px;
+			}
+			
+			.col-2{
+			margin-top:20px;
+			}
+				
+			.col-9{
+			padding-left:0px;
+			margin-top:20px;
+			}
+			
+				
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		img{
+				width:12px;
+				height:12px;
+			}
+	
+		a{
+			font-size:12px;
+			text-decoration:none;
+			color:#456784;
+		}
+	}
+	
+	
+	
+	
+
+}
